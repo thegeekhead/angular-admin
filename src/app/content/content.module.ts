@@ -7,5 +7,6 @@ import { EmployeeComponent } from './employee/employee.component';
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [NavbarComponent, EmployeeComponent],
+  exports: [NavbarComponent, EmployeeComponent],
 })
 export class ContentModule {}
