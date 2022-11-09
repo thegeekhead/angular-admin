@@ -1,3 +1,12 @@
-p {
-  font-family: Lato;
+.nav-content {
+  display: flex;
+}
+navbar-root {
+  flex: 0.1;
+  height: inherit;
+}
+content-root {
+  flex: 0.9;
+  width: 100%;
+  height: inherit;
 }
